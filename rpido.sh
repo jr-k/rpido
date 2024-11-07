@@ -361,9 +361,9 @@ config_num=-1               # -1 if not used on the commandline
 hostcount=0                 # 0 indicates no multiple images
 
 # these are the URLs to the image filel downloads.
-CurlAddrFull=://downloads.raspberrypi.org/raspbian_full_latest
-CurlAddrNormal=://downloads.raspberrypi.org/raspbian_latest
-CurlAddrLite=://downloads.raspberrypi.org/raspbian_lite_latest
+CurlAddrFull=://downloads.raspberrypi.org/raspios_full_arm64_latest
+CurlAddrNormal=://downloads.raspberrypi.org/raspios_arm64_latest
+CurlAddrLite=://downloads.raspberrypi.org/raspios_lite_arm64_latest
 
 CurlAddr=$CurlAddrNormal    # default to the middle sized image
 
